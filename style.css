@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
 *{
     margin:0;
     padding:0;
-    font-family: 'Source Sans Pro',sans-serif;
+    font-family: 'Source Code Pro',sans-serif;
 }
+
+/* applying style on the container */
 .container{
     padding:20px;
     background-color:  rgb(86, 147, 172);
@@ -33,13 +36,13 @@
     background-color: black;
     z-index:-1;
     border-radius:50%;
-    left:-40%;
+    left:-15%;
     top:-378%;
     animation-name:shine;
     animation-duration:3s;
     animation-iteration-count:infinite;
 }
-
+/* creating the box-shadow style using animation  */
 @keyframes shine {
     0%,100%{
         box-shadow:  0px 82px -12px rgba(189, 42, 17, 0.1);
@@ -48,6 +51,8 @@
         box-shadow: 0px 0px 82px -12px rgba(189, 42, 17, 0.685);
     }
 }
+
+/* applying styles on button */
 button{
     margin-top: 100px;
     background-color: black;
